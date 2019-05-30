@@ -35,13 +35,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### How to use this repo
 
-To train an agent capable of collecting bananas, you should first clone this repo and also download (and locate in the same folder) the unity environment according to the OS you're using:
-
-1. Install UNITY and ML-Agent following this instruction: 
-https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md
-
-To install Unity on Ubuntu, see this post:
-https://forum.unity.com/threads/unity-on-linux-release-notes-and-known-issues.350256/page-2
+To train an agent capable of collecting bananas, you should first clone this repo and also download (and locate in the same folder) the unity environment according to the OS you're using. The steps are:
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
@@ -53,7 +47,7 @@ https://forum.unity.com/threads/unity-on-linux-release-notes-and-known-issues.35
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
+2. Place the file in the same folder where you cloned this repo
 
 3. Run main.py in a terminal and pass a test name (Required), for example
 ```
